@@ -16,7 +16,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>NFT</NavLogo>
+                    <NavLogo to='/'>Nick Falshaw Tutoring</NavLogo>
                     <MobileIcon>
                         <FaBars/>
                     </MobileIcon>
