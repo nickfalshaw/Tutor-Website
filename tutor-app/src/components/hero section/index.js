@@ -20,8 +20,8 @@ const HeroSection = () => {
                     Face to Face and Virtual Math Tutoring
                 </HeroH1>
                 <HeroP>
-                    Whether it's getting help with a tough class, prepare to ace an exam, or keep math
-                    skills fresh over breaks, we are here to assist you in your math journey. 
+                    Whether it's getting help with tough classes, preparing to ace exams, or keeping math
+                    skills sharp over breaks, we are here to assist you in your math journey. 
                 </HeroP> 
             </HeroContent>
         </HeroContainer>
