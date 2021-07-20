@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
 import {
     HeroContainer,
@@ -6,10 +6,20 @@ import {
     VideoBackground,
     HeroContent,
     HeroH1,
-    HeroP
+    HeroP,
+    HeroBtnWrapper,
+    ArrowForward,
+    ArrowRight
 } from './heroElements'
+import { Button } from '../ButtonElements';
 
 const HeroSection = () => {
+    const [hover, setHover] = useState(false);
+
+    const onHover = () => {
+        setHover(!hover)
+    }
+
     return (
         <HeroContainer>
             <HeroBackground>
@@ -20,9 +30,14 @@ const HeroSection = () => {
                     Face to Face and Virtual Math Tutoring
                 </HeroH1>
                 <HeroP>
-                    Whether it's getting help with tough classes, preparing to ace exams, or keeping math
-                    skills sharp over breaks, we are here to assist you in your math journey. 
-                </HeroP> 
+                    Whether it's getting help with tough classes, preparing to ace exams, or keeping
+                    your skills sharp over breaks, we are here to assist you in your math journey. 
+                </HeroP>
+                <HeroBtnWrapper>
+                    <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                        Let's Go! {hover ? <ArrowForward/> : <ArrowRight/>}
+                    </Button>
+                </HeroBtnWrapper> 
             </HeroContent>
         </HeroContainer>
     )

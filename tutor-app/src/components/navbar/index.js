@@ -25,10 +25,13 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="about">About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="contactMe">Contact Me</NavLinks>
+                            <NavLinks to="scheduleAppt">Schedule Appointment</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="scheduleAppt">Schedule Appointment</NavLinks>
+                            <NavLinks to="joke">Math Jokes</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="contactMe">Contact Me</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

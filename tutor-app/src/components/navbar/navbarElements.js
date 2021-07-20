@@ -3,9 +3,9 @@ import {Link as LinkRouter} from 'react-router-dom'
 import {Link as LinkScroll} from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: #b0c4de;
+    background: black;
     height: 80px;
-    // margin-top -80px;
+    margin-top: -40px;
     display: flex;
     justify-content: center;
     align-items: center;
