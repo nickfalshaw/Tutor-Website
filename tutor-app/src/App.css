@@ -1,8 +1,19 @@
+/*
+This is a common technique called a CSS reset. Different
+browsers use different default margins, causing sites to 
+look different by margins. The * means "all elements" (a 
+universal selector), so we are setting all elements to have
+zero margins, and zero padding, thus making them look the
+same in all browsers. 
+https://stackoverflow.com/questions/8715860/what-does-mean-in-css
+*/
+
 * {
   text-align: center;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Lobster', cursive; */
 }
 

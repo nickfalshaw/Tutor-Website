@@ -38,6 +38,7 @@ export const NavLogo = styled(LinkRouter)`
     margin-left: 2px;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
     &:hover{
             color: yellow;
             transition: 0.2s ease-in-out;
@@ -81,9 +82,10 @@ export const NavLinks = styled(LinkScroll)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 0 .75rem;
     height: 100%;
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
 
     &:hover{
             color: yellow;

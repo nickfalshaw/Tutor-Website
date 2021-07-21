@@ -56,6 +56,7 @@ export const HeroH1 = styled.h1`
     color: white;
     font-size: 48px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 
     @media screen and (max-width: 768px){
         font-size: 40px;
